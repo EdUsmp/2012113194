@@ -8,6 +8,12 @@ namespace _2012113194
 {
     class Bus : Carro
     {
-
+        int _numasientos;
+        public TipoBus TipoBus;
+        
+        public Bus(int numasientos)
+        {
+            numasientos = _numasientos;
+        }
     }
 }

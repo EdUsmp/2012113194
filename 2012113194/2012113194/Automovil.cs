@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace _2012113194
 {
-    class Automovil
+    class Automovil : Carro
     {
+        public TipoAuto _tipoauto;
+
+    }
+
+    public Automovil()
+    {
+
     }
 }
