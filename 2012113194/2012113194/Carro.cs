@@ -8,5 +8,8 @@ namespace _2012113194
 {
     class Carro
     {
+        string NumSerieMotor { get; set; }
+
+        string NumSerieChasis { get;set; }
     }
 }
