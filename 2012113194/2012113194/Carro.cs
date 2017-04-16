@@ -8,8 +8,20 @@ namespace _2012113194
 {
     class Carro
     {
-        string NumSerieMotor { get; set; }
+        public string NumSerieMotor { get; set; }
+        public string NumSerieChasis { get; set; }
+        Volante _volante;
+        Parabrisas _parabrisas;
+        Propietario _propietario;
 
-        string NumSerieChasis { get;set; }
+
+
+        public Carro(Volante volante, Parabrisas parabrisas, int numLlantas, int numAsientos, Propietario propietario, TipoCarro tipoCarro)
+        {
+            _volante = volante;
+            _parabrisas = parabrisas;
+            _propietario = propietario;
+        }
+    
     }
 }

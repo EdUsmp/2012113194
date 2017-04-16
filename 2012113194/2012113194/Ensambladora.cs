@@ -8,5 +8,29 @@ namespace _2012113194
 {
     class Ensambladora
     {
+        public class Ensambladora
+        {
+
+            List<Carro> _Carros;
+            Volante volante;
+            Parabrisas parabrisas;
+            Propietario propietario;
+            TipoAuto tipoauto;
+
+            public Ensambladora()
+            {
+                _Carros = new List<Carro>();
+                volante = new Volante();
+                propietario = new Propietario();
+                parabrisas = new Parabrisas();
+                tipoauto = new TipoAuto();
+            }
+
+            public void Agregar(Carro carro)
+            {
+                if (_Carros.Count == 6)
+                    return;
+            }
+        }
     }
 }

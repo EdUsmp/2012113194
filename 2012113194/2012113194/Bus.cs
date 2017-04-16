@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace _2012113194
 {
-    class Bus : Carro
+    class Bus
     {
-        int _numasientos;
-        public TipoBus TipoBus;
-        
-        public Bus(int numasientos)
+        TipoBus TipoBus = new TipoBus();
+
+        public Bus(int numAsientos)
         {
-            numasientos = _numasientos;
+
         }
     }
 }

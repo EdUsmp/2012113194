@@ -8,5 +8,9 @@ namespace _2012113194
 {
     class Llanta
     {
+        class Llanta
+        {
+            string NumSerie { get; }
+        }
     }
 }

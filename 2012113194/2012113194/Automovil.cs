@@ -6,26 +6,17 @@ using System.Threading.Tasks;
 
 namespace _2012113194
 {
-    class Automovil : Carro
+    class Automovil
     {
-        public TipoAuto _tipoauto;
-
-        int _numLlantas;
-		int _numAsientos;
-		
-        public Automovil(int numLlantas,int numAsientos)
+        TipoAuto TipoAuto;
+        Volante _volante;
+        Parabrisas _parabrisas;
+        Propietario _propietario;
+        int numAsiento;
+        public Automovil(Volante volante, Parabrisas parabrisas, int numAsientos, Propietario propietario, TipoAuto tipoAuto)
         {
-            _numLlantas = numLlantas;
-			_numAsientos= numAsientos;
+            TipoAuto = tipoAuto;
         }
-		
-		string Volante(string volante);
-		string Parabrisas(string parabrisas);
-		string Propietario(string propietario);
-		string TipoCarro(string tipoCarro);
-        public int Llantas { get { return _numLlantas; } }
-
-       public int Asientos { get { return _numAsientos; } }
 
     }
 }

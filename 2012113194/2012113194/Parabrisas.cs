@@ -8,5 +8,9 @@ namespace _2012113194
 {
     class Parabrisas
     {
+        public class Parabrisas
+        {
+            public string NumSerie { get; set; }
+        }
     }
 }

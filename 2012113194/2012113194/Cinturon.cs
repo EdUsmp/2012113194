@@ -8,14 +8,10 @@ namespace _2012113194
 {
     class Cinturon
     {
-        public string NumSerie(string numero)
+        public class Cinturon
         {
-            _numero = numero;
-        }
-
-        public string Numero
-        {
-            get { return _numero; }
+            string NumSerie;
+            string Metraje;
         }
     }
 }

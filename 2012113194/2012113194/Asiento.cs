@@ -8,5 +8,12 @@ namespace _2012113194
 {
     class Asiento
     {
+        string NumSerie { get; set; }
+        Cinturon _cinturon;
+
+        public Asiento()
+        {
+            _cinturon = new Cinturon();
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace _2012113194
 {
     class TipoAuto
     {
+        public enum TipoAuto
+    {
+        Sedan, PickUp, Coupe, HatchBack, NoDefinido
+    }
     }
 }
